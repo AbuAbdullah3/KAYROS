@@ -1,0 +1,197 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color:rgb(214, 15, 18);
+   color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {  
+  font-family: "Montserrat-Bold"; 
+}
+
+p {
+color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: sans-serif;  
+  font-weight: bold;
+  font-size: 3rem;  
+  line-height: 1.5;  
+  padding: 10%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+  /* Navigation Bar */
+  
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Tahoma, sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button{
+
+    margin: 5% 3% 5% 0;   
+}
+
+/* Titlle Image */
+
+#title.container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+.kayros-image {
+  width: 20%;
+  transform: rotate(-25deg);
+  position: absolute;
+  margin: -3% -3%;
+
+}
+.title-image {
+   width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 5%;
+  }
+
+  /* Features Section */
+
+  #features{
+    padding: 3% 15%;
+    position: relative;
+}
+
+.feature-text {
+  font-weight: bold;
+  font-size: 1.5rem;  
+  line-height: 1.5; 
+}
+
+.feature-box {
+  
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .icon {
+    color:  rgb(214, 15, 18);
+margin-bottom: 1rem;
+  }
+  .icon:hover {
+    color: rgb(205, 148, 95);
+  }
+
+ /* Testimonials */
+
+  #testimonials {
+    padding: 7% 15%;
+    background-color: rgb(214, 15, 18);
+
+  }
+
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+  }
+
+  .testimonial-test {
+    font-size: 3rem;
+    line-height: 1.5;
+
+  }
+
+  #press {
+padding-bottom: 3%;
+background-color: rgb(214, 15, 18);
+
+  }
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  /* Priceing Section */
+  .kayrosImg {
+
+    position: static;
+    right: 5%;
+  }
+
+  /* Call to Action */
+
+  #cta {
+    background-color: rgb(214, 15, 18);
+    text-align: center;
+    padding: 1% 30%;
+    color: #fff;
+  }
+.kayrosImg {
+  width: 100%;
+  transform: rotate(0);
+  position: static;
+}
+
+/* Fotter */
+ 
+#footer {
+    padding: 3% 15%;
+}
+.logo {
+    margin: 20px 10px;
+}
+  @media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        width: 50%;
+        transform: rotate(0);
+        position: static;
+    }
+  }
+  #pricing{
+    padding:3% 15%;
+    position: relative;
+}
+.small-heading {
+  font-family: sans-serif;  
+  font-weight: bold;
+  font-size: 3rem;  
+  line-height: 1.5;  
+  padding: 1%;
+
+}
+  .education {
+    width: 100%;
+
+    position:static;
+  }
