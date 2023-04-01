@@ -195,3 +195,10 @@ background-color: rgb(214, 15, 18);
 
     position:static;
   }
+
+  .insta-carousel {
+    width: 100%;
+    margin: -5% -5%;
+
+    position:static;
+  }
